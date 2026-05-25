@@ -1,14 +1,14 @@
+import Navbar from "./components/Navbar"
+
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
-      <div>
-        <h1 className="text-5xl font-bold">
+    <div className="min-h-screen bg-gray-900">
+      <Navbar />
+
+      <div className="text-center pt-20">
+        <h1 className="text-red-500 text-6xl font-bold">
           Welcome Bharath 🚀
         </h1>
-
-        <p className="mt-4 text-gray-400">
-          My first React website
-        </p>
       </div>
     </div>
   )
