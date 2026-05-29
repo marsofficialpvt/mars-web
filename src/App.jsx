@@ -6,7 +6,7 @@ function App() {
       <Navbar />
       <div className="text-center pt-20">
         <h1 className="text-red-500 text-6xl font-bold">
-          Welcome Bharath 🚀
+          main body 🚀
         </h1>
         <p className="text-white">hi this is a new page</p>
       </div>
