@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar"
-
+import Foter from "./components/Foter" 
 function App() {
   return (
     <div className="bg-[rgb(253,238,228)] min-h-screen ">
@@ -10,6 +10,7 @@ function App() {
         </h1>
         <p className="text-white">hi this is a new page</p>
       </div>
+      <Foter />
     </div>
   )
 }
