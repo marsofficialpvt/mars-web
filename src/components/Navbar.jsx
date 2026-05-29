@@ -34,11 +34,7 @@ function Navbar() {
               </h1>
             </div>  
           </div>
-          
-
         </div>
-        
-
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-lg">
           <li className="cursor-pointer hover:text-red-500">Home</li>

@@ -3,15 +3,12 @@ import { MdEmail } from "react-icons/md";
 function Foter () {
     return (
         <footer className="bg-black text-white p-8">
-  
             <div className="flex flex-col md:flex-row gap-10 md:gap-20">
-
                 {/* Left Section */}
                 <div className="flex-1">
                 <h1 className="text-4xl font-bold">
                     Multi Architecture & Research Solutions
                 </h1>
-
                 <p className="text-blue-500 text-2xl mt-4">MARS</p>
 
                 <p className="text-gray-300 mt-4 max-w-md">
