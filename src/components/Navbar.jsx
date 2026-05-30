@@ -7,7 +7,6 @@ function Navbar() {
 
   return (
     <nav className="bg-[rgba(152,73,46,0.5)]  min-h text-white p-4">
-
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-3">
           <img

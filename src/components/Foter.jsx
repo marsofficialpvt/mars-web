@@ -22,10 +22,10 @@ function Foter () {
                 <h2 className="font-bold text-xl mb-4">Services</h2>
 
                 <div className="space-y-2 text-gray-300">
-                    <p>Flutter Development</p>
-                    <p>School ERP & CRM</p>
-                    <p>Enterprise Solutions</p>
-                    <p>Custom CRM</p>
+                    <a href="#"><p className="hover:text-blue-500">Flutter Development</p></a>
+                    <a href="#"><p className="hover:text-blue-500">School ERP & CRM</p></a>
+                    <a href="#"><p className="hover:text-blue-500">Enterprise Solutions</p></a>
+                    <a href="#"><p className="hover:text-blue-500">Custom CRM</p></a>
                 </div>
                 </div>
 
@@ -34,10 +34,10 @@ function Foter () {
                 <h2 className="font-bold text-xl mb-4">Company</h2>
 
                 <div className="space-y-2 text-gray-300">
-                    <p>About Us</p>
-                    <p>Case Studies</p>
-                    <p>Careers</p>
-                    <p>Contact</p>
+                    <a href="#"><p className="hover:text-blue-500">About Us</p></a>
+                    <a href="#"><p className="hover:text-blue-500">Case Studies</p></a>
+                    <a href="#"><p className="hover:text-blue-500">Careers</p></a>
+                    <a href="#"><p className="hover:text-blue-500">Contact</p></a>
                 </div>
                 </div>
 
@@ -78,13 +78,13 @@ function Foter () {
                     </div>
                     <div className="flex flex-row gap-6 md:ml-auto">
                         <div>
-                            <p>Privacy Policy</p>
+                            <a href="#"><p className="hover:text-blue-500">Privacy Policy</p></a>
                         </div>
                         <div>
-                            <p>Terms of Service</p>
+                            <a href="#"><p className="hover:text-blue-500">Terms of Service</p></a>
                         </div>
                         <div>
-                            <p>Cookie Policy</p>
+                            <a href="#"><p className="hover:text-blue-500">Cookie Policy</p></a>
                         </div>
                     </div>
                 </div>
