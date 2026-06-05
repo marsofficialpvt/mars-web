@@ -6,7 +6,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav className="bg-[rgba(152,73,46,0.5)]  min-h text-white p-4">
+    <nav className="relative bg-[rgba(152,73,46,0.5)] text-white p-4">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-3">
           <img
@@ -54,7 +54,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <ul className="md:hidden flex flex-col gap-4 mt-4 text-center bg-gray-900 p-4 rounded-xl">
+        <ul className="absolute top-full left-0 w-full md:hidden flex flex-col gap-4 text-center bg-gray-900 p-4 shadow-lg z-50">
 
           <li className="cursor-pointer hover:text-red-500">
             Home
