@@ -87,3 +87,13 @@
     transform: translate(0, 0);
   }
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px rgba(81,13,13,0.4) inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 9999s ease-out;
+}
