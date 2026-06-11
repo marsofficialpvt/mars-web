@@ -10,7 +10,7 @@ function App() {
           main body 🚀
           <Formfill />
         </h1>
-        {/* <p className="text-white">hi this is a new page</p> */}
+        <p className="text-white">hi this is a new page</p>
       </div>
       <Foter />
     </div>
