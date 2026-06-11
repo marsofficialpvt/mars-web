@@ -124,7 +124,7 @@ function Formfill() {
                                 Full Name <p className="text-[rgb(255,0,0)]">*</p>
                                 </label>
 
-                                <input type="text" placeholder="your name" className="w-full p-4 rounded-xl bg-[rgba(50,6,6,0.4)] border border-[rgba(255,255,255,0.15)] text-white outline-none"/>
+                                <input type="text" autoComplete="name" placeholder="your name" className="w-full p-4 rounded-xl bg-[rgba(50,6,6,0.4)] border border-[rgba(255,255,255,0.15)] text-white outline-none"/>
                             </div>
                             <div>
                                 <label className="flex items-start block mb-2 text-white font-medium">
@@ -136,22 +136,22 @@ function Formfill() {
                             <div className="grid md:grid-cols-2 gap-6">
                             <div>
                                 <label className="flex items-start block mb-2 text-white font-medium">
-                                Company Name
+                                Company Name <p className="text-[rgb(255,0,0)]">*</p>
                                 </label>
                                 <input type="text" placeholder="Your Company" className="w-full p-4 rounded-xl bg-[rgba(50,6,6,0.4)] border border-[rgba(255,255,255,0.15)] text-white outline-none"/>
                             </div>
                             <div>
                                 <label className="flex items-start block mb-2 text-white font-medium">
-                                Phone Number
+                                Phone Number <p className="text-[rgb(255,0,0)]">*</p>
                                 </label>
 
-                                <input type="text" placeholder="+91" className="w-full p-4 rounded-xl bg-[rgba(50,6,6,0.4)] border border-[rgba(255,255,255,0.15)] text-white outline-none"/>
+                                <input type="tel" onInput={(e) => {e.target.value = e.target.value.replace(/\D/g,"");}} maxLength={10} autoComplete="tel" placeholder="+91" className="w-full p-4 rounded-xl bg-[rgba(50,6,6,0.4)] border border-[rgba(255,255,255,0.15)] text-white outline-none"/>
                             </div>
                             </div>
 
                             <div>
                             <label className="flex items-start block mb-2 text-white font-medium">
-                                Service Interested In *
+                                Service Interested In <p className="text-[rgb(255,0,0)]">*</p>
                             </label>
 
                             <select className="w-full p-4 rounded-xl bg-[rgba(50,6,6,0.4)] border border-[rgba(255,255,255,0.15)] text-white outline-none">
@@ -164,7 +164,7 @@ function Formfill() {
 
                             <div>
                             <label className="flex items-start block mb-2 text-white font-medium">
-                                Project Details *
+                                Project Details
                             </label>
                             <textarea rows="6" placeholder="Tell us about your project..." className="w-full p-4 rounded-xl bg-[rgba(50,6,6,0.4)] border border-[rgba(255,255,255,0.15)] text-white outline-none resize-none"/>
                             </div>
